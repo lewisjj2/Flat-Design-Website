@@ -1,0 +1,373 @@
+/*===================
+     Universal
+===================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*===================
+        General
+===================*/
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+    color: #f5f5f5;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 155%;
+    padding: 2% 0;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+/*===================
+        Header
+===================*/
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #FF7256;
+}
+
+#header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*===================
+      Navigation
+===================*/
+
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+#menu-icon {
+    display: none;
+    width: 30px;
+    height: 20px;
+    z-index: 999;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: white;
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #4A708B;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.nav-item {
+    color: #4A708B;
+}
+
+/*===================
+      Banner
+===================*/
+
+.banner-inner img {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+/*===================
+     Four Column
+===================*/
+
+.one-fourth {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#html5 {
+    background-color: #FF7256;
+}
+
+#css3 {
+    background-color: #FFD700;
+}
+
+#jquery {
+    background-color: #96CDCD;
+}
+
+#bootstrap {
+    background-color: #4A708B;
+}
+
+.one-fourth i {
+    color: #F0F0F0;
+    font-size: 250%;
+    padding: 12% 0 4% 0;
+}
+
+/*===================
+      Two Column
+===================*/
+
+.inner-wrapper {
+    float: left;
+    width: 100%;
+    background-color: #96CDCD;
+}
+
+article {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#responsive {
+    background-color: #4A708B;
+}
+
+.inner-wrapper-2 {
+    float: left;
+    width: 100%;
+    background-color: #96CDCD;
+}
+
+.inner-wrapper-3 {
+    float: left;
+    width: 100%;
+    background-color: #96CDCD;
+}
+
+/*===================
+     Three Column
+===================*/
+
+.one-third {
+    width: 33.33333333%;
+    float: left;
+    text-align: center;
+}
+
+#typography {
+    background-color: #FF7256;
+}
+
+#color {
+    background-color: #4A708B;
+}
+
+#initials {
+    background-color: #96CDCD;
+    padding: 0 0 1%;
+    clear: both;
+}
+
+#layout {
+    background-color: #FF7256;
+}
+
+/*===================
+      Footer
+===================*/
+
+footer {
+    background-color: #4A708B;
+    width: 100%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 450%;
+    margin: 1%;
+    padding: 5%;
+    color: #f5f5f5;
+}
+
+.social i:hover {
+    color: #FF7256;
+}
+
+/*===================
+    Footer Second
+===================*/
+
+.footer-second {
+    border-top: 3 px solid #96CDCD;
+    background-color: #96CDCD;
+    max-height: 60px;
+    margin: 0;
+}
+
+.footer-second p {
+    padding: 5px 0px 10px 0;
+    text-align: center;
+}
+
+/*===================
+    Media Queries
+===================*/
+
+
+/*Small Screens*/
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    header {
+        position: absolute;
+    }
+    .logo {
+        max-width: 60px;
+    }
+    .banner {
+        padding-top: 90px
+    }
+    .one-fourth {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+    .one-fourth i {
+        font-size: 75px;
+        padding: 5% 0 1% 0;
+    }
+    article {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .one-third {
+        width: 100%;
+    }
+    .social i {
+        font-size: 150%;
+    }
+    #front-end-img {
+        display: none;
+    }
+}
+
+/*===================
+    Media Queries
+===================*/
+
+/*Smaller Screens*/
+@media screen and (max-width: 480px) {
+    /*Navigation*/
+    #menu-icon {
+        display: block;
+        z-index: 999 !important;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    nav ul {
+        overflow: hidden;
+        height: auto;
+        background: #96CDCD;
+        width: 100%;
+        margin: 0;
+    }
+    nav ul li {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    nav ul li a {
+        color: white;
+        display: block;
+        border-bottom: 1px solid white;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    nav {
+        padding: 0;
+    }
+    .logo {
+        max-width: 42px;
+    }
+}
+
+
